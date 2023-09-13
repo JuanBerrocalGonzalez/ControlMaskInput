@@ -1,5 +1,6 @@
 # ControlMaskInput
 Control de entrada de datos en los inputs <input type="text", "number", "tel", "url", "email", "password", "date", "time", "datetime-local" o textarea 
+
 ControlMaskInput v1.52 by Juan Berrocal González
 Copyright 2023 - The ControlMaskInput Author (https://github.com/JuanBerrocalGonzalez)
 
