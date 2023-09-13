@@ -1,0 +1,65 @@
+/*!
+*  ControlMaskInput v1.52 by Juan Berrocal González
+*  Copyright 2023 - The ControlMaskInput Author (https://github.com/JuanBerrocalGonzalez)
+*
+ */
+
+#controlmaskinput {
+   display: inline-block;
+}
+
+#controlmaskinput input, textarea {
+   margin: 5px;
+   vertical-align: top;
+}
+
+input[maskinput] {
+   background-color:#e2e2df;
+}
+
+textarea[maskinput] {
+   background-color:floralwhite;
+   width: 100%;
+   max-width: 350px;
+   height: 60px;   
+}
+
+input[maskinput="AMOUNT"] {
+   background-color:#e9eedb;
+}
+textarea[maskinput="EMAILS"] {
+   background-color:aquamarine;
+}
+input[MaskinputValueIsOK=true] {
+   background-color:#dbecf2;
+}
+input[MaskinputValueIsOK=false] {
+   background-color:#feebeb;
+}
+
+textarea[MaskinputValueIsOK=true] {
+   background-color:#ffffff;
+}
+
+textarea[MaskinputValueIsOK=false] {
+   background-color:#feebeb;
+}
+
+input[maskinput="EMAIL"] {
+   width: 100%;
+   max-width: 350px; 
+}
+
+input[maskinput="URL"] {
+   width: 100%;
+   max-width: 350px; 
+}
+
+#controlmaskinput span {
+   margin: 5px;
+   font-size:small;
+}
+
+.readme span {
+   font-size:smaller;
+}
