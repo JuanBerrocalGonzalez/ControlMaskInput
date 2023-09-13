@@ -81,7 +81,7 @@ $version = GetParameterIni('Version');
             <input type="text" placeholder="CIF" maskinput="CIF">
             <input type="text" placeholder="NIF/NIE/CIF" maskinput="NIF/NIE/CIF">
             <br />
-            <span>Campo para entrada de Password entrada light. Dene incluir número, mayúscula, minúscula y simbolo, con 8 caracteres o más. Debe ser de type="password"</span><br />
+            <span>Campo para entrada de Password entrada light. Debe incluir número, mayúscula, minúscula y simbolo, con 8 caracteres o más. Debe ser de type="password"</span><br />
             <input type="password" placeholder="PASSWORD" maskinput="PASSWORD"> 
             <br />            
             <span>Campo para entrada de FECHA y /o HORA da formato al perder foco. Son type="date", type="datetime-local" y type="time"</span><br />
