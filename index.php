@@ -1,6 +1,6 @@
 <?php
 //
-// ControlMaskInput v1.52 by Juan Berrocal González
+// ControlMaskInput v1.53 by Juan Berrocal González
 // Copyright 2023 - The ControlMaskInput Author (https://github.com/JuanBerrocalGonzalez)
 //
 // Control de entrada de datos en los inputs <input type="text", "number", "tel", "url", "email", "password", "date", "time", "datetime-local" o textarea 
@@ -36,7 +36,7 @@ $version = GetParameterIni('Version');
             ControlMaskInput v1.50 by Juan Berrocal González.<br />
             Copyright 2023 - The ControlMaskInput Author (https://github.com/JuanBerrocalGonzalez).</b><br />
             <br />
-            Control de entrada de datos en los inputs input type="text", "number", "tel", "url", "email", "password", "date", "time", "datetime-local" o textarea. 
+            Control de entrada de datos en los inputs type: "text", "number", "tel", "url", "email", "password", "date", "time", "datetime-local" o textarea. 
             <br /><br />
             <u>Archivos:</u><br />
             js/controlmaskinput.js                      incluir entre las etiquetas &lt;head&gt;... &lt;script src="js/controlmaskinput.js"&gt;&lt;/script&gt; ...&lt;/head&gt;
@@ -81,15 +81,15 @@ $version = GetParameterIni('Version');
             <input type="text" placeholder="CIF" maskinput="CIF">
             <input type="text" placeholder="NIF/NIE/CIF" maskinput="NIF/NIE/CIF">
             <br />
-            <span>Campo para entrada de Password entrada light. Debe incluir número, mayúscula, minúscula y simbolo, con 8 caracteres o más. Debe ser de type="password"</span><br />
+            <span>Campo para entrada de Password entrada light. Dene incluir número, mayúscula, minúscula y simbolo, con 8 caracteres o más. Debe ser de type="password"</span><br />
             <input type="password" placeholder="PASSWORD" maskinput="PASSWORD"> 
             <br />            
-            <span>Campo para entrada de FECHA y /o HORA da formato al perder foco. Son type="date", type="datetime-local" y type="time"</span><br />
+            <span>Campo para entrada de FECHA y/o HORA, da formato al perder foco. Son type="date", type="datetime-local" y type="time"</span><br />
             <input type="date" maskinput="DATE-HTML">
             <input type="datetime-local" maskinput="DATETIME-HTML">
             <input type="time" maskinput="TIME-HTML">
             <br />
-            <span>Campo para entrada de FECHA y /o HORA entrada strong y da formato al perder foco. Son de type="text"</span><br />
+            <span>Campo para entrada de FECHA y/o HORA entrada strong y da formato al perder foco. Son de type="text"</span><br />
             <input type="text" placeholder="DATE" maskinput="DATE">
             <input type="text" placeholder="DATETIME" maskinput="DATETIME">
             <input type="text" placeholder="TIME" maskinput="TIME">    
